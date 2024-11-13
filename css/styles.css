@@ -1,0 +1,27 @@
+/*! Kleurenpalet */
+.text-grey {
+  color: #f0f1f2;
+}
+
+.text-blue {
+  color: #0F6CA6;
+}
+
+.btn-primary-blue {
+  background-color: #007bff;
+}
+.text-dark-blue {
+  color: #133340;
+}
+/*! E-mail knop aangepast*/
+.custom-submit-button {
+  background-color: #007bff; 
+  color: #ffffff;
+  border-color: #007bff; 
+}
+
+.custom-submit-button:hover {
+  background-color: #007bff; 
+  color: #ffffff;
+  border-color: #007bff; 
+}
