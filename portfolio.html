@@ -23,15 +23,15 @@
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
-          <nav class="navbar navbar-expand-md bg-light container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="POWER web" width="100" height="100">
+          <nav class="navbar navbar-expand-lg bg-light container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Trask" width="100" height="100">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto text-end mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link text-uppercase fs-5" href="index.html">Home</a>
                 </li>
@@ -42,12 +42,6 @@
                   <a class="nav-link text-uppercase fs-5" href="contact.html">Contact</a>
                 </li>
               </ul>
-                    <!-- 
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-                  <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
-                </form>
-                -->
               </div>
           </nav>
               <section class="py-5">
@@ -57,76 +51,111 @@
                       <span class="d-inline">Portfolio</span>
                     </h1>
                   </div>
-                  <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-11 col-xl-9 col-xxl-8">
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <a href="portfolio-item1.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 1</h2>
-                              <p>Besturingssystemen</p>
+                  <div class="container px-4">
+                    <div class="row g-4">
+                      <!-- Project 1 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item1.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 1</h2>
+                                <p class="mb-0">Besturingssystemen</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/Besturingsystemen.jpg" alt="Sfeerbeeld Project 1" />
+                              </div>
                             </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/Besturingsystemen.jpg" alt="Sfeerbeeld Project 1" />
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <a href="portfolio-item2.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 2</h2>
-                              <p>Datacom & Netwerken</p>
+                  
+                      <!-- Project 2 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item2.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 2</h2>
+                                <p class="mb-0">Datacom & Netwerken</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/D&N.jpeg" alt="Sfeerbeeld Project 2" />
+                              </div>
                             </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/D&N.jpeg" alt="Sfeerbeeld Project 2" />
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <a href="portfolio-item3.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 3</h2>
-                              <p>Scripting</p>
+                  
+                      <!-- Project 3 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item3.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 3</h2>
+                                <p class="mb-0">Scripting</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/Scripting.jpg" alt="Sfeerbeeld Project 3" />
+                              </div>
                             </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/Scripting.jpg" alt="Sfeerbeeld Project 2" />
-                          </div>
-                        </a>
-                      </div> 
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <a href="portfolio-item4.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 4</h2>
-                              <p>Learn@work</p>
-                            </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/Learn@Work.jpg" alt="Sfeerbeeld Project 2" />
-                          </div>
-                        </a>
-                      </div> 
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <a href="portfolio-item5.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 5</h2>
-                              <p>Serverbeheer</p>
-                            </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/Serverbeheer.jpeg" alt="Sfeerbeeld Project 2" />
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                      <div class="card overflow-hidden shadow rounded-4 border-0 mb-0">
-                        <a href="portfolio-item6.html" class="text-decoration-none text-dark">
-                          <div class="card-body p-0 d-flex align-items-center flex-column flex-sm-row">
-                            <div class="p-5 flex-grow-1">
-                              <h2 class="fw-bolder">Project 6</h2>
-                              <p>Projectvaardigheden</p>
+                  
+                      <!-- Project 4 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item4.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 4</h2>
+                                <p class="mb-0">Learn@work</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/Learn@Work.jpg" alt="Sfeerbeeld Project 4" />
+                              </div>
                             </div>
-                            <img class="img-fluid w-100 w-sm-auto" src="assets/Portfolio/Projectvaardigheden.jpg" alt="Sfeerbeeld Project 2" />
-                          </div>
-                        </a>
+                          </a>
+                        </div>
+                      </div>
+                  
+                      <!-- Project 5 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item5.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 5</h2>
+                                <p class="mb-0">Serverbeheer</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/Serverbeheer.jpeg" alt="Sfeerbeeld Project 5" />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                  
+                      <!-- Project 6 -->
+                      <div class="col-6 col-sm-6 col-lg-4">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 h-100">
+                          <a href="portfolio-item6.html" class="text-decoration-none text-dark">
+                            <div class="card-body p-0 d-flex flex-column h-100">
+                              <div class="p-4">
+                                <h2 class="fw-bolder h4">Project 6</h2>
+                                <p class="mb-0">Projectvaardigheden</p>
+                              </div>
+                              <div class="mt-auto">
+                                <img class="img-fluid w-100" src="assets/Portfolio/Projectvaardigheden.jpg" alt="Sfeerbeeld Project 6" />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </div>                
                 </div>
               </section>
             </main>
