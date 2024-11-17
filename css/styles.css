@@ -22,3 +22,17 @@
   color: #f0f1f2;
   border-color: #133340; 
 }
+/* Flexbox om de afbeelding te centreren */
+.modal-body {
+  display: flex;
+  justify-content: center;  /* Horizontaal centreren */
+  align-items: center;      /* Verticaal centreren */
+  height: 100%;             /* Zorgt ervoor dat de modal-body de volledige hoogte van de modal heeft */
+}
+
+/* Stijlen voor de afbeelding zelf */
+.modal-body img {
+  object-fit: contain;      /* Zorg ervoor dat de afbeelding proportioneel schaalt zonder vervorming */
+  max-width: 100%;
+  max-height: 100vh;         /* Beperk de hoogte tot de zichtbare hoogte van het scherm */
+}
